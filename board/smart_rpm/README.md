@@ -7,9 +7,6 @@ cd sdsu
 
 git checkout smarteps
 
-git submodule update --init --recursive       # 有 submodule 的話
-
-
 # ── 2. 接上 panda,讓它進 DFU 模式
 
 python -c "from panda import Panda; Panda().reset(enter_bootstub=True)"
